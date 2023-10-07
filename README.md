@@ -13,7 +13,7 @@ myCalc is a simple and user-friendly web-based calculator application that allow
 ## Getting Started
 
 1. **Clone the Repository**
-2. 
+  
 2. **Open the Application**
 
 Open the `index.html` file in your web browser to launch the calculator.
