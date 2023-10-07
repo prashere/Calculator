@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prashidika Tiwari">
+    <meta name="keywords" content="Calculator, Calculations, Math">
+    <meta name="description" content="A simple calculator web application">
+    <title>myCalc</title>
+
+    <link rel="stylesheet" href="style.css"><!--linking external css-->
+
+    <!--script for loading fontawesome icons-->
+    <script src="https://kit.fontawesome.com/d3acb3ae7f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nav"><!--navigation bar starts here-->
+        <ul>
+            <li><a href="#">ABOUT</a></li>
+        </ul>
+        <div id="logo-container">
+            <img id="logo-img" src="images/logo.png" alt="Logo" style="cursor: pointer;">
+        </div>
+        <div id="icon-container">
+            <i class="fa-solid fa-calculator" id="calc-scroll"></i>
+        </div>
+    </div><!--navigation bar ends here-->
+
+    <div class="top-section">
+        <p><span id='first-letter'>D</span>igital &nbsp;<span id='first-letter'>C</span>alculator !
+            <span>Easy to use calculator. Great graphics and accurate result. Add, subtract, multiply and divide.
+                ANYTIME ! &nbsp;ANYWHERE! </span>
+        </p>
+
+    </div>
+
+    <div class="calculator-section">
+        <div class="header" style="padding: 0px; width: 100%; display: flex;">
+            <img src="images/wave.png" alt="wave" style="width: 100%; margin-top: -10px;">
+        </div>
+        <div class="calculator">
+            <div class="screen"></div>
+            <div class="row1">
+                <div id="c" class="symbol calc">C</div>
+                <div id="point" class="symbol calc">&nbsp;.&nbsp;</div>
+                <div id="zero" class="number calc">0</div>
+                <div id="divide" class="symbol calc">&divide;</div>
+            </div>
+            <div class="row2">
+                <div id="seven" class="number calc">7</div>
+                <div id="eight" class="number calc">8</div>
+                <div id="nine" class="number calc">9</div>
+                <div id="multiply" class="symbol calc">&times;</div>
+            </div>
+            <div class="row3">
+                <div id="four" class="number calc">4</div>
+                <div id="five" class="number calc">5</div>
+                <div id="six" class="number calc">6</div>
+                <div id="minus" class="symbol calc">-</div>
+            </div>
+            <div class="row4">
+                <div id="one" class="number calc">1</div>
+                <div id="two" class="number calc">2</div>
+                <div id="three" class="number calc">3</div>
+                <div id="add" class="symbol calc">+</div>
+            </div>
+            <div class="row5">
+                <div id="equal" class="symbol calc">=</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p style="margin: 0px;">Thank you for visiting</p>
+    </div>
+    <script src='calculator.js'></script> <!--linking external javascript-->
+</body>
+
+</html>
